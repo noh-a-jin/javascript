@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+img { 
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.priceTitle {
+    font-weight: bold;
+    font-size: 18px;
+}

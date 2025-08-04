@@ -1,0 +1,22 @@
+section {
+    width: 300px;
+    height: 80px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    align-items: end;
+    padding : 10px 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.num {
+    background-color: white;
+}
+
+.plus {
+    background-color: white;
+}
